@@ -1,32 +1,72 @@
 body {
     background-color: #D9D9D9;
+    padding: 0;
+    border: 0;
+    margin: 0;
 }
 .navul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 5px;
     overflow: hidden;
 }
 
 .navli {
     display: inline;
     float: right;
+    padding: 4px;
 }
 
 .nava {
     display: block;
     padding: 8px;
+    background-color: #7A0404;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 2px solid #7A0404;
+    color: #D9D9D9;
+    transition-duration: 0.4s;
+    font-family: 'Roboto';
+}
+
+.nava:hover {
+    background-color: #DFDFDF;
+    color: #7A0404;
+    border: 2px solid #7A0404;
+}
+
+.logo {
+    width: 85px;
+    padding: 7px;
+    border-radius: 15px;
+}
+
+.maenavbar {
+    height: 57px;
+    display: grid;
+    grid-template-columns: 100px auto;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
 .maehero {
-    width: 100%;
     height: 322px;
     background-color: #7A0404;
 }
 
 .maeinfobox {
-    width: 100%;
     height: 361px;
+    background-color: #a3a3a3;
+}
+
+.maeinfobox h1 {
+    font-family: 'Roboto';
+    font-weight: bold;
+    padding-top: 2%;
+}
+
+.maeinfobox p {
+    font-family: 'Roboto';
 }
 
 .maecenteredtext {
@@ -90,4 +130,11 @@ body {
     height: 200px;
     grid-row: 1 / span 3;
     grid-column: 8;
+  }
+
+  .maerounded {
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-radius: 15px;
   }
