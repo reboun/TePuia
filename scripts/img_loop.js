@@ -1,6 +1,6 @@
 function start() {
-    var rotator = document.getElementById('rotator');  
-    var imageDir = '../assets/img/cycles/';                          
+    var rotator = document.getElementById('maerotator');  
+    var imageDir = 'assets/img/cycles/';                          
     var delayInSeconds = 1;                            
 
     var images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg'];

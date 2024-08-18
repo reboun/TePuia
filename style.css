@@ -54,6 +54,16 @@ body {
     background-color: #7A0404;
 }
 
+.maerotator {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    filter: brightness(50%);
+}
+
 .maeinfobox {
     height: 361px;
     background-color: #a3a3a3;
