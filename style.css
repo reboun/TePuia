@@ -1,5 +1,5 @@
 body {
-    background-color: #D9D9D9;
+    background-color: #000000;
     padding: 0;
     border: 0;
     margin: 0;
@@ -27,18 +27,21 @@ body {
     color: #D9D9D9;
     transition-duration: 0.4s;
     font-family: 'Roboto';
+    box-shadow:0 0 10px #7A0404;
 }
 
 .nava:hover {
-    background-color: #DFDFDF;
+    background-color: #000000;
     color: #7A0404;
     border: 2px solid #7A0404;
+    box-shadow:0 0 5px #7A0404;
 }
 
 .logo {
     width: 85px;
     padding: 7px;
     border-radius: 15px;
+    filter: invert(1);
 }
 
 .maenavbar {
@@ -66,7 +69,8 @@ body {
 
 .maeinfobox {
     height: 361px;
-    background-color: #a3a3a3;
+    background-color: #363636;
+    box-shadow:0 0 30px #363636;
 }
 
 .maeinfobox h1 {
@@ -74,15 +78,31 @@ body {
     font-weight: bold;
     font-size: 50px;
     padding-top: 2%;
+    color: #bdbdbd;
 }
 
 .maeinfobox p {
     font-family: 'Roboto';
+    color: #bdbdbd;
 }
 
 .maecenteredtext {
     text-align: center;
     font-size: large;
+}
+
+.maetitleblock {
+    height: 50px;
+    background-color: #363636;
+    box-shadow:0 0 30px #363636;
+}
+
+.maetitleblock h1 {
+    font-family: 'Roboto';
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5px;
+    color: #bdbdbd;
 }
 
 .main-cara {
@@ -102,7 +122,7 @@ body {
     justify-content: center;
     column-gap: 50px; */
 
-    background-color: #a3a3a3;
+    background-color: #363636;
     overflow: scroll;
     white-space: nowrap;
     padding: 10px;
@@ -120,7 +140,7 @@ body {
     scroll-behavior: smooth;
     height: 250px;
     overflow-y: hidden;
-
+    box-shadow:0 0 30px #363636;
 }
 
 .maephotogal::-webkit-scrollbar {
@@ -130,7 +150,7 @@ body {
 }
   
 .maephotogal::-webkit-scrollbar-track {
-    background: #b1b3b399;
+    background: #363636;
     border-radius: 25px;
 }
   
@@ -140,7 +160,7 @@ body {
 }
   
 .maephotogal::-webkit-scrollbar-track-piece:start {
-    background: #b1b3b399;
+    background: #363636;
     border-radius: 25px;
 }
 
@@ -164,9 +184,10 @@ body {
     display: grid;
     grid-template-columns: 200px auto;
     grid-template-rows: auto auto auto;
-    background-color: #a3a3a3;
+    background-color: #363636;
     margin-bottom: 20px;
     min-height: 150px;
+    box-shadow:0 0 30px #363636;
 }
 
 .maeinfosect-first {
@@ -176,9 +197,11 @@ body {
 .maeinfosect h1 {
     font-family: 'Roboto';
     font-weight: bold;
+    color: #bdbdbd;
 }
 .maeinfosect p {
     font-family: 'Roboto';
+    color: #bdbdbd;
 }
 
 .maeinfosect img {
@@ -201,6 +224,7 @@ body {
 .maefootersect p {
     font-family: 'Roboto';
     padding-left: 10px;
+    color: #bdbdbd;
 }
 
 .maefootersect img {
